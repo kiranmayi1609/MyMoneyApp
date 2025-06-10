@@ -1,0 +1,37 @@
+/* Global Base Styles */
+body {
+  margin: 0;
+  font-family: 'Helvetica', sans-serif;
+}
+
+/* Media Queries */
+
+/* Small Screens - e.g., phones */
+@media (max-width: 428px) {
+  .container {
+    padding: 16px;
+    font-size: 14px;
+  }
+
+  .form-input {
+    width: 100%;
+  }
+}
+
+/* Medium Screens - tablets */
+@media (min-width: 728px) and (max-width: 1000px) {
+  .container {
+    padding: 24px;
+    font-size: 16px;
+  }
+}
+
+/* Large Screens - desktops */
+@media (min-width: 1238px) {
+  .container {
+    padding: 32px;
+    font-size: 18px;
+    max-width: 1200px;
+    margin: auto;
+  }
+}
