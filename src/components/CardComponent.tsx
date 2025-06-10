@@ -8,7 +8,7 @@ const CardComponent = ({ bank, cardNumber, type }: CardComponentProps) => (
     <Text style={styles.bankName}>{bank}</Text>
     <Text style={styles.cardNumber}>{cardNumber}</Text>
     <Text style={styles.cardType}>{type}</Text>
-  </View>
+  </View> 
 );
 
 const styles = StyleSheet.create({
